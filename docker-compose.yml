@@ -5,7 +5,7 @@ services:
     restart: always
     volumes:
       - /home/fouri/.ssh:/root/.ssh
-      - /home/fouri/autocommit:/autocommit
+      - /home/fouri/.auto:/autocommit
     command:
       - /bin/sh
       - -ecx
